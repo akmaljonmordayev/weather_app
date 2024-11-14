@@ -256,3 +256,31 @@ body{
 .active-clone#clone-info-wind span{
   transform: translateY(0%);
 }
+
+
+
+/* Telefon ekranlari uchun moslashgan CSS */
+@media (max-width: 768px) {
+  body {
+      padding: 10px;
+      font-size: 90%;
+  }
+  header, footer {
+      text-align: center;
+  }
+  .container {
+      width: 100%;
+      margin: 0 auto;
+  }
+  .icon {
+      width: 100%;
+      max-width: 150px;
+      height: auto;
+  }
+  .content {
+      padding: 10px;
+  }
+  .text-large {
+      font-size: 1.2em;
+  }
+}
